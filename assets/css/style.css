@@ -1,0 +1,128 @@
+body {
+    color: #777;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Oleo Script', cursive;
+    background-image: url("assets/images/qbkls.png");
+
+}
+
+section, footer {
+    background: #ebebeb;
+}
+
+
+header {
+    text-align: left;
+    font-size: 40px;
+    height: 70px;
+    width: 960px;
+    margin-bottom: 10px;
+    background: lightgrey;
+    vertical-align: middle;
+    line-height: 70px;
+    float: left;
+}
+
+nav {
+    height: 70px;
+    width: 60%;
+    margin: -80px 0px 20px 0px;
+    line-height: 70px;
+    font-size: 16px;
+    float: right;
+    text-align: right;
+    background: white;
+    text-decoration: none;
+}
+
+section {
+    float: left;
+    border: 40px;
+    margin: 10px 0px 20px 0px;
+    height: overflow auto;
+    width: 960px;
+}
+
+article {
+    font-size: 30px;
+    text-align: left;
+    padding: 20px 20px 0px 20px;}
+
+p{
+    color: #777;
+    font-size: 16px;
+    background: #ebebeb;
+    width: 920px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.content {
+    min-height: calc(100vh - 70px);
+  }
+  
+.footer {
+    height: 50px;
+    clear: both;
+    padding-top: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: palevioletred;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: pink;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    margin-top: 6px;
+    padding: 20px;
+    font-size: 16px;
+      font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  
