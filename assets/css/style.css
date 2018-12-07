@@ -1,15 +1,19 @@
 body {
-    color: #777;
+    color: black;
     width: 960px;
     text-align: center;
     margin: 0 auto;
-    font-family: 'Oleo Script', cursive;
-    background-image: url("assets/images/qbkls.png");
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+
 
 }
 
-section, footer {
-    background: #ebebeb;
+section, footer, header {
+  background-color: #fce1e0;
+  border-radius: 10px;
+
 }
 
 
@@ -17,9 +21,8 @@ header {
     text-align: left;
     font-size: 40px;
     height: 70px;
-    width: 960px;
     margin-bottom: 10px;
-    background: lightgrey;
+    padding: 0 20px 0 20px;
     vertical-align: middle;
     line-height: 70px;
     float: left;
@@ -27,20 +30,41 @@ header {
 
 nav {
     height: 70px;
-    width: 60%;
+    width: 70%;
     margin: -80px 0px 20px 0px;
     line-height: 70px;
     font-size: 16px;
     float: right;
     text-align: right;
-    background: white;
     text-decoration: none;
 }
+
+a:link {
+    text-decoration: none;
+      }
+  
+a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color:  #fce1e0; 
+    
+  }
+  
+a:active {
+    text-decoration: none;
+  }
 
 section {
     float: left;
     border: 40px;
     margin: 10px 0px 20px 0px;
+    font-size: 30px;
+    text-align: left;
+    padding: 20px 20px 0px 20px;
     height: overflow auto;
     width: 960px;
 }
@@ -48,16 +72,19 @@ section {
 article {
     font-size: 30px;
     text-align: left;
-    padding: 20px 20px 0px 20px;}
-
-p{
-    color: #777;
-    font-size: 16px;
-    background: #ebebeb;
-    width: 920px;
+    padding: 0px 20px 0px 20px;
     font-family: 'Open Sans', sans-serif;
 
 }
+
+
+p{
+    font-size: 16px;
+    width: 920px;
+    font-family: 'Lora', serif;   
+    text-transform: none;
+}
+
 
 
 .content {
@@ -68,6 +95,7 @@ p{
     height: 50px;
     clear: both;
     padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   * {
