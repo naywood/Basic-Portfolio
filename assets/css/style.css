@@ -3,23 +3,24 @@ body {
     width: 960px;
     text-align: center;
     margin: 0 auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
     font-weight: 300;
-    text-transform: uppercase;
-    background-image: url("qbkls.jpg");
-    background-repeat: repeat-y;
-    
+    background-image: url("/Users/naywood/Desktop/naywood.github.io/assets/images/qbkls.jpg");
+    background-repeat: repeat;
 }
 
 section, footer, header {
-  background-color: #fce1e0;
+  background-color: rgba(252, 225, 224); 
   border-radius: 10px;
+  border: 3px solid white;
+
 
 }
 
 
 header {
     text-align: left;
+    text-transform: uppercase;
     font-size: 40px;
     height: 70px;
     margin-bottom: 10px;
@@ -38,6 +39,8 @@ nav {
     float: right;
     text-align: right;
     text-decoration: none;
+    text-transform: uppercase;
+
 }
 
 a:link {
@@ -61,12 +64,10 @@ a:active {
 
 section {
     float: left;
-    border: 40px;
     margin: 10px 0px 20px 0px;
     font-size: 30px;
     text-align: left;
-    padding: 20px 20px 0px 20px;
-    height: overflow auto;
+    padding: 20px 20px 20px 20px;
     width: 960px;
 }
 
@@ -74,7 +75,6 @@ article {
     font-size: 30px;
     text-align: left;
     padding: 0px 20px 0px 20px;
-    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -82,11 +82,36 @@ article {
 p{
     font-size: 16px;
     width: 920px;
-    font-family: 'Lora', serif;   
     text-transform: none;
+    padding: 0px 20px 0px 20px;
 }
 
+#hello{
+  font-size: 18px;
+}
 
+.textbox{
+  position: absolute;
+  margin: 30px 0 0 0;
+  background: white ;
+  width: 250px; 
+}
+.textbox2 {
+  position: absolute;
+  margin: 30px 0px 0px 265px;
+  background: white;
+  width: 250px;
+  text-align: center;
+}
+
+.textbox3 {
+  position: absolute;
+  margin: 30px 0px 0px 530px;
+  background: white;
+  width: 250px;
+  text-align: center;
+
+}
 
 .content {
     min-height: calc(100vh - 70px);
@@ -97,7 +122,8 @@ p{
     height: 50px;
     clear: both;
     padding-top: 20px;
-    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
   }
 
   * {
@@ -130,7 +156,7 @@ p{
   
   /* Style the container/contact section */
   .container {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f2f2f2;
   }
   
@@ -139,7 +165,6 @@ p{
     margin-top: 6px;
     padding: 20px;
     font-size: 16px;
-      font-family: 'Open Sans Condensed', sans-serif;
   }
   
   /* Clear floats after the columns */
@@ -157,7 +182,4 @@ p{
     }
   }
 
-#hello{
-  font-family: 'Lora', serif;   
-  font-size: 18px;
-}
+
